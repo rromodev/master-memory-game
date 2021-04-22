@@ -1,11 +1,16 @@
 ## Master Memory Game
 
-This application was created with the following flowchart: 
+This application is a game in React where you try to memorize words in short time:
+
+![game](images/Master_Memory_Game.png)
+
+And was created with the following flowchart: 
 
 ![flowchart](images/memory-game-flow.png)
 
 And using this npm packages:
 
+- React: Application Framework
 - Wouter: to manage application routing
 - Zustand: to manage game state
 - ChakraUI: application UI
