@@ -1,3 +1,17 @@
+## Master Memory Game
+
+This application was created with the following flowchart: 
+
+[flowchart](images/memory-game-flow.png)
+
+And using this npm packages:
+
+- Wouter: to manage application routing
+- Zustand: to manage game state
+- ChakraUI: application UI
+
+## Development
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
