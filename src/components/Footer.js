@@ -1,17 +1,19 @@
-import { Box, Flex } from '@chakra-ui/layout'
+import { Box, Center, Flex } from '@chakra-ui/layout'
 import React from 'react'
 import GithubIcon from '../assets/GithubIcon'
 
 const Footer = () => {
   return (
-    <Flex as="nav"
+    <Flex
+    direction="column"
+    justify="center"
     align="center"
-    justify="space-between"
-    wrap="wrap"
-    w='40px'>
-      <Box w='30px'>
-        <GithubIcon />
-      </Box>
+    wrap="wrap">
+      <Center>
+        <Box w={30}>
+          <GithubIcon />
+        </Box>
+      </Center>
       
     </Flex>
   )
