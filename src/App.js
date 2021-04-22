@@ -24,7 +24,6 @@ function App() {
         <Header />
         <Switch>
           <Route path="/game" component={Game} />
-          <Route path="/about" component={About} />
           <Route path="/" component={Home} />
         </Switch>
         <Footer />

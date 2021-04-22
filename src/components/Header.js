@@ -10,18 +10,20 @@ const Header = () => {
     justify="space-between"
     wrap="wrap"
     w="100%">
-      <Link href="/" style={{ cursor: "pointer"}} ml={2} p="2">
+      <Box ml={2} p="2">
+      <Link href="/" style={{ cursor: "pointer"}} >
           Master Memory Game        
       </Link>
       
+      </Box>
+      
       <Spacer />
       <Flex align="flex-end" mr={2}>
-        <Link href="/about">
           <Box p="2">
-            About
-          </Box>
-        </Link>
-        
+            <Link href="https://github.com/rromodev/master-memory-game" style={{ cursor: "pointer"}}> 
+                About
+            </Link>
+          </Box>        
         <ColorModeSwitcher/>
       </Flex>
     </Flex>
