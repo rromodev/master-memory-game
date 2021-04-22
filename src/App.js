@@ -5,6 +5,7 @@ import {
   Flex,
 } from '@chakra-ui/react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       m="0 auto"
       >
         <Header />
+
+        <Footer />
       </Flex>
     </ChakraProvider>
   );
