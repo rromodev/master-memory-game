@@ -11,19 +11,17 @@ const Header = () => {
     wrap="wrap"
     w="100%">
       <Box ml={2} p="2">
-      <Link href="/" style={{ cursor: "pointer"}} >
-          Master Memory Game        
-      </Link>
+        <Link href="/" style={{ cursor: "pointer"}} >
+            Master Memory Game        
+        </Link>
       
       </Box>
       
       <Spacer />
-      <Flex align="flex-end" mr={2}>
-          <Box p="2">
-            <Link href="https://github.com/rromodev/master-memory-game" style={{ cursor: "pointer"}}> 
-                About
-            </Link>
-          </Box>        
+      <Flex align="flex-end" mr={2} alignItems="center">
+        <Link href="https://github.com/rromodev/master-memory-game" style={{ cursor: "pointer"}}> 
+            About
+        </Link>          
         <ColorModeSwitcher/>
       </Flex>
     </Flex>
