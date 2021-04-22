@@ -184,3 +184,5 @@ const wordArray = [
     "restaurant",]
   }
 ]
+
+export default wordArray

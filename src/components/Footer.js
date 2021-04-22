@@ -1,4 +1,4 @@
-import { Box, Center, Flex } from '@chakra-ui/layout'
+import { Box, Center, Flex, Link } from '@chakra-ui/layout'
 import React from 'react'
 import GithubIcon from '../assets/GithubIcon'
 
@@ -11,7 +11,9 @@ const Footer = () => {
     wrap="wrap">
       <Center>
         <Box w={30}>
-          <GithubIcon />
+          <Link href="https://github.com/rromodev/master-memory-game" style={{ cursor: "pointer"}} ml={2} p="2">
+            <GithubIcon />
+          </Link>
         </Box>
       </Center>
       

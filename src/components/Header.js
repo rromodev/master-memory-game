@@ -10,10 +10,8 @@ const Header = () => {
     justify="space-between"
     wrap="wrap"
     w="100%">
-      <Link href="/">
-        <Box ml={2} p="2">
-          Master Memory Game
-        </Box>
+      <Link href="/" style={{ cursor: "pointer"}} ml={2} p="2">
+          Master Memory Game        
       </Link>
       
       <Spacer />
