@@ -4,8 +4,6 @@ import {
   theme,
   Flex,
 } from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
 import Header from './components/Header';
 
 function App() {
@@ -14,7 +12,7 @@ function App() {
       <Flex
       direction="column"
       align="center"
-      maxW={{ xl: "1200px" }}
+      maxW={{ xl: "960px" }}
       m="0 auto"
       >
         <Header />

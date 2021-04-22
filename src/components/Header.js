@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Spacer } from '@chakra-ui/layout'
+import { Box, Flex, Spacer } from '@chakra-ui/layout'
 import React from 'react'
 import { ColorModeSwitcher } from '../ColorModeSwitcher'
 
