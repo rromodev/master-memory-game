@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 import { Route, Switch } from 'wouter';
 import Home from './components/Home';
 import Game from './components/Game';
-import About from './components/About';
 
 function App() {
   return (
