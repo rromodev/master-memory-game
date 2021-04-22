@@ -1,6 +1,5 @@
-import { Box, Flex, Spacer } from '@chakra-ui/layout'
+import { Box, Flex, Link, Spacer } from '@chakra-ui/layout'
 import React from 'react'
-import { Link } from 'wouter'
 import { ColorModeSwitcher } from '../ColorModeSwitcher'
 
 const Header = () => {
