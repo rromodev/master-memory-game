@@ -2,7 +2,7 @@
 
 This application was created with the following flowchart: 
 
-[flowchart](images/memory-game-flow.png)
+![flowchart](images/memory-game-flow.png)
 
 And using this npm packages:
 
